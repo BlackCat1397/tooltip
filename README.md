@@ -34,7 +34,7 @@ handleLongPress: function(event) {
 
 # Using with touchable
 If you want to show this menu from touchable element with multiple nested elements you'll notice that `event.target` is not touchable but nested elemnt on which you tap.
-To prevent this add `pointerEvents="none"` to nested elements. Or `pointerEvents="box-only"` to touchable element.
+To prevent this add `pointerEvents="none"` to nested elements.
 
 # Credits
 
